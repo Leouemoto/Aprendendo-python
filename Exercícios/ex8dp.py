@@ -12,6 +12,7 @@ except ValueError:
     print("O input só pode ser um número.")
 
 try:
+
     n = int(input("Digite o número de valores que deseja somar: "))
     soma = 0
     contador = 0
@@ -21,6 +22,4 @@ try:
         soma += numero
         contador += 1
 
-    print(f"A soma dos {n} números é: {soma}")
-except ValueError:
-    print("O input só pode ser um número.")
+    print(f"A soma dos {n} números é: {soma}")  
