@@ -25,6 +25,9 @@ try:
     menor_nota = min(notas) if notas else None
     acima_da_media = sum(1 for nota in notas if nota > media)
 
+    print("\nLista de notas digitadas:")
+    print(notas)
+
     print("\nNotas da turma:")
     for i, nota in enumerate(notas, start=1):
         print(f"Aluno {i}: {nota}")
