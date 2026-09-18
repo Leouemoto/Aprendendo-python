@@ -1,0 +1,5 @@
+# Pedindo o nome para o usuário
+nome = input("Qual é o seu nome? ")
+
+# Mostrando a saudação personalizada
+print(f"Olá, {nome}! Bem-vindo(a) ao Python!")
